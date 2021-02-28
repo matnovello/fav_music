@@ -1,5 +1,5 @@
 {
-  id: song.id
+  id: @song.id,
   title: @song.title,
   album: @song.album,
   artist: @song.artist,

@@ -15,5 +15,9 @@ Rails.application.routes.draw do
     get "/fav_music/:id" => "fav_music#show"
     #create
     post "/fav_music" => "fav_music#create"
+    #patch
+    post "/fav_music/:id" => "fav_music#patch"
+    #delete
+    delete "/fav_music/:id" => "fav_music#destroy"
   end
 end
