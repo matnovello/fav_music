@@ -1,6 +1,6 @@
 class Api::FavMusicController < ApplicationController
   def index
-    @songs = Songs.all
+    @songs = Song.all
     render "index.json.jb"
   end
 end

@@ -8,5 +8,7 @@ Rails.application.routes.draw do
   # end
 
   #index
-  get "/fav_music" => "fav_music#index"
+  namespace :api do
+    get "/fav_music" => "fav_music#index"
+  end
 end
