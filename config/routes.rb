@@ -13,5 +13,7 @@ Rails.application.routes.draw do
     get "/fav_music" => "fav_music#index"
     #show
     get "/fav_music/:id" => "fav_music#show"
+    #create
+    post "/fav_music" => "fav_music#create"
   end
 end
